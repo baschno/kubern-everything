@@ -1,0 +1,9 @@
+apiVersion: metallb.io/v1beta1
+kind: L2Advertisement
+metadata:
+  name: default-advertisement
+  namespace: metallb-system
+# can be left out, then all available addresspools will be bound
+spec:
+  ipAddressPools:
+  - fdefault-address-pool 
