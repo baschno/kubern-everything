@@ -47,6 +47,6 @@ service:
   annotations: {}
   labels: {}
   spec:
-    loadBalancerIP: 192.168.178.231 # IP in the MetalLB range from metallb config.yaml
+    loadBalancerIP: 192.168.178.220 # IP in the MetalLB range from metallb config.yaml
   loadBalancerSourceRanges: []
   externalIPs: []
