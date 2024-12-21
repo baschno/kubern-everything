@@ -6,4 +6,4 @@ metadata:
 # can be left out, then all available addresspools will be bound
 spec:
   ipAddressPools:
-  - fdefault-address-pool 
+  - default-address-pool
