@@ -17,3 +17,7 @@ spec:
                 name: nginx
                 port:
                   number: 80
+  tls:
+    - hosts:
+        - nginx.k8s.internal.schnrbs.work
+      secretName: nginx-certificate-secret
