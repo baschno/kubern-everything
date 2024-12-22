@@ -6,5 +6,5 @@ ingressRoute:
   dashboard:
     enabled: true
     entryPoints: [web, websecure]
-    matchRule: Host(`traefik-dashboard.k8s.internal.schnrbs.work`)
+    matchRule: Host(`traefik-dashboard.k8s.redacted`)
       

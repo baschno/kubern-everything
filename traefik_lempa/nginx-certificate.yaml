@@ -9,4 +9,4 @@ spec:
     name: cloudflare-cluster-issuer
     kind: ClusterIssuer
   dnsNames:
-    - nginx.k8s.internal.schnrbs.work
+    - nginx.k8s.redacted
