@@ -156,7 +156,7 @@ kube-state-metrics:
 #  priorityClassName: high-priority
 
 # Use an unofficial multi-arch image until kube-state-metrics v2 is stable
-  image:
-    repository: eddiezane/kube-state-metrics
-    tag: v1.9.7
+  # image:
+  #   repository: eddiezane/kube-state-metrics
+  #   tag: v1.9.7
 
